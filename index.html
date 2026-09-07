@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Descubre el universo de Rayman, sus videojuegos, personajes, mundos, curiosidades y galería.">
+
+    <title>Mundo Rayman | Inicio</title>
+
+    <link rel="icon"
+          type="image/png"
+          href="img/CABEZA RAYMAN MENU SUPERIOR.png">
+
+    <!-- CSS PRINCIPAL -->
+    <link rel="stylesheet"
+          href="estilos.css">
+
+    <!-- CSS VENTANA SOBRE EL PROYECTO -->
+    <link rel="stylesheet"
+          href="proyecto-modal.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- FUENTES -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+<!-- =========================================================
+     CURSOR
+========================================================= -->
+
+<div class="cursor-rayman"
+     id="cursorRayman">
+
+    <img src="img/MOUSE RAYMAN WEB.png"
+         alt="">
+
+</div>
+
+
+
+<!-- =========================================================
+     MÚSICA YOUTUBE
+========================================================= -->
+
+<div id="musicaYoutube"
+     class="youtube-musica">
+</div>
+
+
+
+<!-- =========================================================
+     LOADER
+========================================================= -->
+
+<div class="loader"
+     id="loader">
+
+    <div class="loader-contenido">
+
+        <img src="img/RAYMAN LOGO MENU.png"
+             alt="Rayman"
+             class="loader-logo">
+
+        <div class="loader-barra">
+
+            <div class="loader-progreso"></div>
+
+        </div>
+
+        <p>
+            CARGANDO AVENTURA...
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header class="header"
+        id="header">
+
+    <div class="header-fondo"></div>
+
+    <div class="header-contenido">
+
+
+        <a href="index.html"
+           class="logo-principal">
+
+            <img src="img/RAYMAN LOGO MENU.png"
+                 alt="Rayman">
+
+        </a>
+
+
+        <nav class="nav-desktop">
+
+
+            <a href="rayman.html"
+               class="nav-link">
+
+                <img src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+                     alt="Rayman"
+                     class="nav-rayman-icon">
+
+                <span>
+                    RAYMAN
+                </span>
+
+            </a>
+
+
+            <a href="juegos.html"
+               class="nav-link">
+
+                <i class="fa-solid fa-gamepad"></i>
+
+                <span>
+                    JUEGOS
+                </span>
+
+            </a>
+
+
+            <a href="personajes.html"
+               class="nav-link">
+
+                <i class="fa-solid fa-user-group"></i>
+
+                <span>
+                    PERSONAJES
+                </span>
+
+            </a>
+
+
+            <a href="mundos.html"
+               class="nav-link">
+
+                <i class="fa-solid fa-earth-americas"></i>
+
+                <span>
+                    MUNDOS
+                </span>
+
+            </a>
+
+
+            <a href="galeria.html"
+               class="nav-link">
+
+                <i class="fa-regular fa-image"></i>
+
+                <span>
+                    GALERÍA
+                </span>
+
+            </a>
+
+
+        </nav>
+
+
+        <button class="hamburguesa"
+                id="hamburguesa"
+                aria-label="Abrir menú"
+                aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     MENU MOBILE
+========================================================= -->
+
+<div class="menu-overlay"
+     id="menuOverlay">
+</div>
+
+
+<aside class="menu-mobile"
+       id="menuMobile">
+
+
+    <div class="menu-mobile-header">
+
+        <a href="index.html">
+
+            <img src="img/RAYMAN LOGO MENU.png"
+                 alt="Rayman">
+
+        </a>
+
+
+        <button id="cerrarMenu"
+                aria-label="Cerrar menú">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+
+    <a href="rayman.html"
+       class="mobile-link">
+
+        <img src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+             alt="Rayman">
+
+        RAYMAN
+
+    </a>
+
+
+    <a href="juegos.html"
+       class="mobile-link">
+
+        <i class="fa-solid fa-gamepad"></i>
+
+        JUEGOS
+
+    </a>
+
+
+    <a href="personajes.html"
+       class="mobile-link">
+
+        <i class="fa-solid fa-user-group"></i>
+
+        PERSONAJES
+
+    </a>
+
+
+    <a href="mundos.html"
+       class="mobile-link">
+
+        <i class="fa-solid fa-earth-americas"></i>
+
+        MUNDOS
+
+    </a>
+
+
+    <a href="galeria.html"
+       class="mobile-link">
+
+        <i class="fa-solid fa-images"></i>
+
+        GALERÍA
+
+    </a>
+
+
+    <a href="proyecto.html"
+       class="mobile-link">
+
+        <i class="fa-solid fa-circle-info"></i>
+
+        SOBRE EL PROYECTO
+
+    </a>
+
+
+</aside>
+
+
+
+<main>
+
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero"
+         id="inicio">
+
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-luces"></div>
+
+
+    <div class="hero-contenido">
+
+
+        <div class="hero-textos">
+
+
+            <p class="bienvenido hero-entrada">
+
+                BIENVENIDO AL
+
+            </p>
+
+
+            <h1 class="titulo-hero hero-entrada">
+
+
+                <span class="titulo-mundo">
+
+                    MUNDO DE
+
+                </span>
+
+
+                <span class="titulo-rayman">
+
+                    RAYMAN
+
+                </span>
+
+
+            </h1>
+
+
+
+            <div class="pincel-banner hero-entrada">
+
+
+                <img src="img/inicio/PINCEL MORADO BANNER.png"
+                     alt="">
+
+
+                <span>
+
+                    EXPLORA LA AVENTURA SIN LÍMITES
+
+                </span>
+
+
+            </div>
+
+
+
+            <div class="descripcion-caja hero-entrada">
+
+
+                <p class="descripcion">
+
+                    Adéntrate en el universo de Rayman y descubre
+                    su historia, sus personajes inolvidables,
+                    sus mundos fantásticos y los videojuegos
+                    que marcaron a toda una generación.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="hero-botones hero-entrada">
+
+
+                <a href="#trailer"
+                   class="boton-pincel">
+
+                    <img src="img/inicio/PINCEL AMARILLO TRAILER.png"
+                         alt="">
+
+                    <span>
+
+                        <i class="fa-solid fa-play"></i>
+
+                        VER TRÁILER
+
+                    </span>
+
+                </a>
+
+
+                <a href="#explorar"
+                   class="boton-explorar">
+
+                    EXPLORAR EL SITIO
+
+                    <i class="fa-solid fa-arrow-down"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     QUE ENCONTRARÁS
+========================================================= -->
+
+<section class="explorar"
+         id="explorar">
+
+
+    <div class="explorar-contenido">
+
+
+        <h2 class="titulo-seccion">
+
+            ¿QUÉ ENCONTRARÁS AQUÍ?
+
+        </h2>
+
+
+
+        <div class="tarjetas"
+             id="tarjetasExplorar">
+
+
+
+            <a href="rayman.html"
+               class="tarjeta tarjeta-pop">
+
+
+                <div class="tarjeta-imagen">
+
+                    <img src="img/inicio/RAYMAN SECCION 2.png"
+                         alt="Rayman">
+
+                </div>
+
+
+                <div class="tarjeta-info">
+
+                    <h3>
+                        RAYMAN
+                    </h3>
+
+
+                    <p>
+                        Historia, origen, características
+                        y evolución del personaje.
+                    </p>
+
+
+                    <span class="flecha-card roja">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </span>
+
+
+                </div>
+
+
+            </a>
+
+
+
+            <a href="juegos.html"
+               class="tarjeta tarjeta-pop">
+
+
+                <div class="tarjeta-imagen">
+
+                    <img src="img/inicio/JUEGOS SECCION 2.png"
+                         alt="Juegos">
+
+                </div>
+
+
+                <div class="tarjeta-info">
+
+                    <h3>
+                        JUEGOS
+                    </h3>
+
+
+                    <p>
+                        Descubre los videojuegos más
+                        importantes de la saga.
+                    </p>
+
+
+                    <span class="flecha-card morada">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </span>
+
+
+                </div>
+
+
+            </a>
+
+
+
+            <a href="personajes.html"
+               class="tarjeta tarjeta-pop">
+
+
+                <div class="tarjeta-imagen">
+
+                    <img src="img/inicio/PERSONAJES SECCION 2.png"
+                         alt="Personajes">
+
+                </div>
+
+
+                <div class="tarjeta-info">
+
+                    <h3>
+                        PERSONAJES
+                    </h3>
+
+
+                    <p>
+                        Conoce héroes, aliados,
+                        secundarios y villanos.
+                    </p>
+
+
+                    <span class="flecha-card naranja">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </span>
+
+
+                </div>
+
+
+            </a>
+
+
+
+            <a href="mundos.html"
+               class="tarjeta tarjeta-pop">
+
+
+                <div class="tarjeta-imagen">
+
+                    <img src="img/inicio/MUNDOS SECCION 2.png"
+                         alt="Mundos">
+
+                </div>
+
+
+                <div class="tarjeta-info">
+
+                    <h3>
+                        MUNDOS
+                    </h3>
+
+
+                    <p>
+                        Explora escenarios fantásticos
+                        y mundos llenos de magia.
+                    </p>
+
+
+                    <span class="flecha-card verde">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </span>
+
+
+                </div>
+
+
+            </a>
+
+
+
+            <a href="galeria.html"
+               class="tarjeta tarjeta-pop">
+
+
+                <div class="tarjeta-imagen">
+
+                    <img src="img/inicio/GALERIA SECCION 2.png"
+                         alt="Galería">
+
+                </div>
+
+
+                <div class="tarjeta-info">
+
+                    <h3>
+                        GALERÍA
+                    </h3>
+
+
+                    <p>
+                        Arte conceptual, ilustraciones,
+                        imágenes y capturas.
+                    </p>
+
+
+                    <span class="flecha-card azul">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </span>
+
+
+                </div>
+
+
+            </a>
+
+
+
+            <a href="proyecto.html"
+               class="tarjeta tarjeta-pop">
+
+
+                <div class="tarjeta-imagen">
+
+                    <img src="img/inicio/SOBRE EL PROYECTO SECCION 2.png"
+                         alt="Sobre el proyecto">
+
+                </div>
+
+
+                <div class="tarjeta-info">
+
+                    <h3>
+                        SOBRE EL PROYECTO
+                    </h3>
+
+
+                    <p>
+                        Objetivo, metodología, equipo,
+                        créditos y fuentes.
+                    </p>
+
+
+                    <span class="flecha-card morada">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </span>
+
+
+                </div>
+
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     ZONA PARTICULAS
+========================================================= -->
+
+<div class="zona-particulas">
+
+
+    <div class="particulas-globales"
+         id="particulasGlobales">
+    </div>
+
+
+
+    <!-- =====================================================
+         TRAILER + NOVEDADES
+    ====================================================== -->
+
+    <section class="novedades"
+             id="trailer">
+
+
+        <div class="novedades-contenedor">
+
+
+
+            <!-- TRAILER -->
+
+            <div class="trailer-columna animar-scroll">
+
+
+                <h2>
+
+                    TRÁILER OFICIAL
+
+                </h2>
+
+
+
+                <div class="trailer-box">
+
+
+                    <iframe
+                        src="https://www.youtube.com/embed/zFUZYpRIFUo?autoplay=1&mute=1&loop=1&playlist=zFUZYpRIFUo&rel=0"
+                        title="Trailer oficial Rayman"
+                        allow="autoplay; encrypted-media; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+
+
+
+                    <button class="abrir-trailer"
+                            id="abrirTrailer">
+
+
+                        <span class="play-grande">
+
+                            <i class="fa-solid fa-expand"></i>
+
+                        </span>
+
+
+                        VER TRÁILER EN GRANDE
+
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="separador"></div>
+
+
+
+            <!-- =================================================
+                 ULTIMAS NOVEDADES
+            ================================================== -->
+
+            <div class="noticias-columna animar-scroll">
+
+
+                <h2>
+
+                    ÚLTIMAS NOVEDADES
+
+                </h2>
+
+
+
+                <div class="noticias-grid">
+
+
+
+                    <!-- ARTICULO -->
+
+                    <a href="https://raymanpc.com/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="noticia">
+
+
+                        <div class="noticia-imagen">
+
+                            <img src="img/inicio/ARTICULO SECCION 3.png"
+                                 alt="Artículo">
+
+                        </div>
+
+
+
+                        <div class="titulo-pincel-noticia">
+
+                            <img src="img/inicio/PINCEL AMARILLO NUEVO ARTICULO.png"
+                                 alt="">
+
+
+                            <span>
+
+                                NUEVO ARTÍCULO
+
+                            </span>
+
+
+                        </div>
+
+
+
+                        <h3>
+
+                            La evolución gráfica de Rayman
+
+                        </h3>
+
+
+                        <p>
+
+                            20 de mayo, 2026
+
+                        </p>
+
+
+                    </a>
+
+
+
+                    <!-- CURIOSIDADES -->
+
+                    <a href="https://raymanpc.com/wiki/es/Rayman"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="noticia">
+
+
+                        <div class="noticia-imagen">
+
+                            <img src="img/inicio/CURIOSIDADES SECCION 3.png"
+                                 alt="Curiosidades">
+
+                        </div>
+
+
+
+                        <div class="titulo-pincel-noticia">
+
+                            <img src="img/inicio/PINCEL MORADO CURIOSIDADES.png"
+                                 alt="">
+
+
+                            <span class="texto-blanco">
+
+                                CURIOSIDADES
+
+                            </span>
+
+
+                        </div>
+
+
+
+                        <h3>
+
+                            10 secretos que quizás no sabías
+
+                        </h3>
+
+
+                        <p>
+
+                            15 de mayo, 2026
+
+                        </p>
+
+
+                    </a>
+
+
+
+                    <!-- GALERIA -->
+
+                    <a href="https://cl.pinterest.com/pin/336433034685140888/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="noticia">
+
+
+                        <div class="noticia-imagen">
+
+                            <img src="img/inicio/GALERIA SECCION 3.png"
+                                 alt="Galería">
+
+                        </div>
+
+
+
+                        <div class="titulo-pincel-noticia">
+
+                            <img src="img/inicio/PINCEL AZUL GALERIA.png"
+                                 alt="">
+
+
+                            <span>
+
+                                GALERÍA
+
+                            </span>
+
+
+                        </div>
+
+
+
+                        <h3>
+
+                            Nuevas ilustraciones del universo Rayman
+
+                        </h3>
+
+
+                        <p>
+
+                            10 de mayo, 2026
+
+                        </p>
+
+
+                    </a>
+
+
+                </div>
+
+
+
+                <a href="https://mundo-de-rayman.foroactivo.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="boton-todas">
+
+
+                    <img src="img/inicio/PINCEL AZUL VER TODAS LAS NOVEDADES.png"
+                         alt="">
+
+
+                    <span>
+
+                        VER TODAS LAS NOVEDADES
+
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+
+                    </span>
+
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+
+        <div class="footer-contenido">
+
+
+            <div class="footer-logo">
+
+
+                <img src="img/RAYMAN FOOTER.png"
+                     alt="Rayman">
+
+
+            </div>
+
+
+
+            <div class="footer-linea"></div>
+
+
+
+            <div class="footer-contacto">
+
+
+                <h3>
+
+                    Contacto
+
+                </h3>
+
+
+                <p>
+
+                    Rayman.co
+
+                </p>
+
+
+                <p>
+
+                    +57 324 596 1367
+
+                </p>
+
+
+                <p>
+
+                    Cra. 84 #17 - 42, Engativá
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- REDES -->
+
+            <div class="footer-redes">
+
+
+                <!-- INSTAGRAM -->
+
+                <a href="https://www.instagram.com/rayman_game/?hl=es-la"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram de Rayman"
+                   title="Instagram de Rayman">
+
+
+                    <i class="fa-brands fa-instagram"></i>
+
+
+                </a>
+
+
+
+                <!-- TIKTOK -->
+
+                <a href="https://www.tiktok.com/@raymanadventuresfan"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="TikTok de Rayman"
+                   title="TikTok de Rayman">
+
+
+                    <i class="fa-brands fa-tiktok"></i>
+
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <p class="footer-copy">
+
+            © 2026 MUNDO RAYMAN
+
+        </p>
+
+
+    </footer>
+
+
+</div>
+
+
+</main>
+
+
+
+<!-- =========================================================
+     CONTROLES FLOTANTES
+========================================================= -->
+
+<div class="controles-flotantes">
+
+
+    <button class="control-circular musica-control"
+            id="botonMusica"
+            aria-label="Activar música"
+            title="Activar música">
+
+
+        <i class="fa-solid fa-volume-xmark"
+           id="iconoMusica"></i>
+
+
+        <span class="ondas-musica">
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </span>
+
+
+    </button>
+
+
+
+    <button class="control-circular boton-arriba"
+            id="botonArriba"
+            aria-label="Volver al inicio">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     MODAL TRAILER
+========================================================= -->
+
+<div class="trailer-modal"
+     id="trailerModal">
+
+
+    <div class="trailer-modal-fondo"
+         id="cerrarFondoTrailer">
+    </div>
+
+
+    <div class="trailer-modal-contenido">
+
+
+        <button class="cerrar-trailer"
+                id="cerrarTrailer"
+                aria-label="Cerrar tráiler">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <div class="modal-video">
+
+            <iframe
+                id="iframeModal"
+                src=""
+                title="Trailer Rayman ampliado"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     YOUTUBE + JS
+========================================================= -->
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script src="script.js"></script>
+
+
+    <!-- JS PROPIO DE LA PÁGINA -->
+    <script src="script.js"></script>
+
+    <!-- VENTANA SOBRE EL PROYECTO -->
+    <script src="proyecto-modal.js"></script>
+
+</body>
+</html>
