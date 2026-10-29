@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Galería del universo de Rayman: arte conceptual, ilustraciones y videos."
+    >
+
+    <title>Galería | Mundo Rayman</title>
+
+    <!-- FAVICON -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="img/CABEZA RAYMAN MENU SUPERIOR.png"
+    >
+
+    <!-- CSS PRINCIPAL DE GALERÍA -->
+    <link
+        rel="stylesheet"
+        href="galeria.css"
+    >
+
+    <!-- CSS DE LA VENTANA EMERGENTE SOBRE EL PROYECTO -->
+    <link
+        rel="stylesheet"
+        href="proyecto-modal.css"
+    >
+
+    <!-- FONT AWESOME -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- GOOGLE FONTS -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     CURSOR RAYMAN
+========================================================= -->
+
+<div
+    class="cursor-rayman"
+    id="cursorRayman"
+>
+    <img
+        src="img/MOUSE RAYMAN WEB.png"
+        alt=""
+    >
+</div>
+
+
+<!-- =========================================================
+     MUSICA YOUTUBE OCULTA
+========================================================= -->
+
+<div
+    id="musicaYoutube"
+    class="youtube-musica"
+></div>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header
+    class="header"
+    id="header"
+>
+
+    <div class="header-bg"></div>
+
+
+    <div class="header-content">
+
+
+        <a
+            href="index.html"
+            class="main-logo"
+        >
+            <img
+                src="img/RAYMAN LOGO MENU.png"
+                alt="Rayman"
+            >
+        </a>
+
+
+        <nav class="desktop-menu">
+
+
+            <a
+                href="rayman.html"
+                class="menu-link"
+            >
+                <img
+                    src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+                    class="rayman-head"
+                    alt=""
+                >
+                <span>RAYMAN</span>
+            </a>
+
+
+            <a
+                href="juegos.html"
+                class="menu-link"
+            >
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+            </a>
+
+
+            <a
+                href="personajes.html"
+                class="menu-link"
+            >
+                <i class="fa-solid fa-user-group"></i>
+                <span>PERSONAJES</span>
+            </a>
+
+
+            <a
+                href="mundos.html"
+                class="menu-link"
+            >
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>MUNDOS</span>
+            </a>
+
+
+            <a
+                href="galeria.html"
+                class="menu-link activo"
+            >
+                <i class="fa-regular fa-image"></i>
+                <span>GALERÍA</span>
+            </a>
+
+
+        </nav>
+
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Abrir menú"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     OVERLAY MOBILE
+========================================================= -->
+
+<div
+    class="mobile-overlay"
+    id="mobileOverlay"
+></div>
+
+
+<!-- =========================================================
+     MENU MOBILE
+========================================================= -->
+
+<aside
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+
+    <div class="mobile-menu-top">
+
+
+        <a href="index.html">
+
+            <img
+                src="img/RAYMAN LOGO MENU.png"
+                alt="Rayman"
+            >
+
+        </a>
+
+
+        <button
+            id="closeMobile"
+            aria-label="Cerrar menú"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+
+    </div>
+
+
+    <nav class="mobile-main-nav">
+
+
+        <a
+            href="rayman.html"
+            class="mobile-item"
+        >
+            <img
+                src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+                alt=""
+            >
+            <span>RAYMAN</span>
+        </a>
+
+
+        <a
+            href="juegos.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-gamepad"></i>
+            <span>JUEGOS</span>
+        </a>
+
+
+        <a
+            href="personajes.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-user-group"></i>
+            <span>PERSONAJES</span>
+        </a>
+
+
+        <a
+            href="mundos.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-earth-americas"></i>
+            <span>MUNDOS</span>
+        </a>
+
+
+        <a
+            href="galeria.html"
+            class="mobile-item activo"
+        >
+            <i class="fa-solid fa-images"></i>
+            <span>GALERÍA</span>
+        </a>
+
+
+        <a
+            href="proyecto.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-circle-info"></i>
+            <span>SOBRE EL PROYECTO</span>
+        </a>
+
+
+    </nav>
+
+
+    <div class="mobile-gallery-divider"></div>
+
+
+    <div class="mobile-gallery-head">
+
+        <img
+            src="img/GALERIA/RAYMAN PERSONAJES MORADO.png"
+            alt="Rayman"
+        >
+
+        <h2>
+            GALERÍA
+        </h2>
+
+    </div>
+
+
+    <nav class="mobile-gallery-nav">
+
+
+        <button
+            class="mobile-gallery-link active"
+            data-mobile-filter="all"
+        >
+
+            <img
+                src="img/GALERIA/TODAS LAS IMAGENES MENU.png"
+                alt=""
+            >
+
+            <span>
+                TODAS LAS IMÁGENES
+            </span>
+
+        </button>
+
+
+        <button
+            class="mobile-gallery-link"
+            data-mobile-filter="arte"
+        >
+
+            <img
+                src="img/GALERIA/MENU ARTE CONCEPTUAL.png"
+                alt=""
+            >
+
+            <span>
+                ARTE CONCEPTUAL
+            </span>
+
+        </button>
+
+
+        <button
+            class="mobile-gallery-link"
+            data-mobile-filter="ilustraciones"
+        >
+
+            <img
+                src="img/GALERIA/MENU ILUSTRACIONES.png"
+                alt=""
+            >
+
+            <span>
+                ILUSTRACIONES
+            </span>
+
+        </button>
+
+
+        <button
+            class="mobile-gallery-link"
+            data-mobile-filter="videos"
+        >
+
+            <img
+                src="img/GALERIA/VIDEO MENU.png"
+                alt=""
+            >
+
+            <span>
+                VIDEOS
+            </span>
+
+        </button>
+
+
+    </nav>
+
+
+    <a
+        href="https://heyzine.com/flip-book/12452f922a.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mobile-magazine-button"
+    >
+
+        <i class="fa-solid fa-book-open"></i>
+
+        <span>
+            MIRA NUESTRA REVISTA
+        </span>
+
+    </a>
+
+
+</aside>
+
+
+<!-- =========================================================
+     MENU MORADO LATERAL
+========================================================= -->
+
+<div
+    class="gallery-panel-overlay"
+    id="galleryPanelOverlay"
+></div>
+
+
+<aside
+    class="gallery-panel"
+    id="galleryPanel"
+>
+
+
+    <img
+        class="gallery-panel-background"
+        src="img/GALERIA/MENU LATERAL GALERIA.png"
+        alt=""
+    >
+
+
+    <div class="gallery-panel-content">
+
+
+        <a
+            href="index.html"
+            class="panel-main-logo"
+        >
+            <img
+                src="img/RAYMAN LOGO MENU.png"
+                alt="Rayman"
+            >
+        </a>
+
+
+        <div class="panel-rayman">
+
+            <img
+                src="img/GALERIA/RAYMAN PERSONAJES MORADO.png"
+                alt="Rayman"
+            >
+
+        </div>
+
+
+        <h2 class="gallery-panel-title">
+            GALERÍA
+        </h2>
+
+
+        <nav class="gallery-panel-nav">
+
+
+            <button
+                class="gallery-panel-link active"
+                data-panel-filter="all"
+            >
+
+                <img
+                    src="img/GALERIA/TODAS LAS IMAGENES MENU.png"
+                    alt=""
+                >
+
+                <span>
+                    TODAS LAS IMÁGENES
+                </span>
+
+            </button>
+
+
+            <button
+                class="gallery-panel-link"
+                data-panel-filter="arte"
+            >
+
+                <img
+                    src="img/GALERIA/MENU ARTE CONCEPTUAL.png"
+                    alt=""
+                >
+
+                <span>
+                    ARTE CONCEPTUAL
+                </span>
+
+            </button>
+
+
+            <button
+                class="gallery-panel-link"
+                data-panel-filter="ilustraciones"
+            >
+
+                <img
+                    src="img/GALERIA/MENU ILUSTRACIONES.png"
+                    alt=""
+                >
+
+                <span>
+                    ILUSTRACIONES
+                </span>
+
+            </button>
+
+
+            <button
+                class="gallery-panel-link"
+                data-panel-filter="videos"
+            >
+
+                <img
+                    src="img/GALERIA/VIDEO MENU.png"
+                    alt=""
+                >
+
+                <span>
+                    VIDEOS
+                </span>
+
+            </button>
+
+
+        </nav>
+
+
+        <a
+            href="https://heyzine.com/flip-book/12452f922a.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="magazine-button"
+        >
+
+            <i class="fa-solid fa-book-open"></i>
+
+            <span>
+                MIRA NUESTRA REVISTA
+            </span>
+
+        </a>
+
+
+    </div>
+
+
+    <button
+        class="gallery-panel-toggle"
+        id="galleryPanelToggle"
+        aria-label="Abrir menú galería"
+    >
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </button>
+
+
+</aside>
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="gallery-hero">
+
+
+    <div class="gallery-hero-bg"></div>
+
+    <div class="gallery-top-fade"></div>
+
+
+    <div class="gallery-hero-content">
+
+
+        <p class="hero-eyebrow">
+            INICIO › GALERÍA › TODAS LAS IMÁGENES
+        </p>
+
+
+        <p class="hero-kicker">
+            GALERÍA DE
+        </p>
+
+
+        <h1>
+            RAYMAN
+        </h1>
+
+
+        <div class="hero-purple-brush">
+
+
+            <img
+                src="img/GALERIA/PINCEL MORADO BANNER.png"
+                alt=""
+            >
+
+
+            <span>
+                EXPLORA LA AVENTURA SIN LÍMITES
+            </span>
+
+
+        </div>
+
+
+        <div class="hero-description">
+
+
+            <p>
+
+                Explora arte conceptual, ilustraciones,
+                fanarts y videos inspirados en el universo
+                de Rayman. Descubre imágenes llenas de
+                color, aventura y creatividad.
+
+            </p>
+
+
+        </div>
+
+
+        <div class="hero-actions">
+
+
+            <button
+                class="hero-video"
+                id="heroVideoButton"
+            >
+
+                <img
+                    src="img/GALERIA/PINCEL AMARILLO TRAILER.png"
+                    alt=""
+                >
+
+                <span>
+
+                    <i class="fa-solid fa-play"></i>
+
+                    VER VIDEO
+
+                </span>
+
+            </button>
+
+
+            <a
+                href="#galeriaContenido"
+                class="hero-explore"
+            >
+
+                EXPLORAR GALERÍA
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     ZONA BLANCA
+========================================================= -->
+
+<div class="gallery-content-zone">
+
+
+    <div
+        class="background-bubbles"
+        id="backgroundBubbles"
+    ></div>
+
+
+    <div
+        class="rising-particles"
+        id="risingParticles"
+    ></div>
+
+
+<!-- =========================================================
+     DESTACADOS
+========================================================= -->
+
+<section class="featured-gallery-section">
+
+
+    <div class="gallery-container">
+
+
+        <header class="section-title reveal">
+
+
+            <i class="fa-solid fa-star"></i>
+
+
+            <div>
+
+                <small>
+                    DESCUBRE EL UNIVERSO VISUAL
+                </small>
+
+                <h2>
+                    ARTES DESTACADOS
+                </h2>
+
+            </div>
+
+
+        </header>
+
+
+        <div class="featured-gallery-grid">
+
+
+            <article
+                class="featured-gallery-card conceptual reveal-card"
+            >
+
+
+                <button
+                    class="featured-image gallery-open-image"
+                    data-image-index="0"
+                >
+
+                    <img
+                        src="img/GALERIA/MENU ARTE CONCEPTUAL.png"
+                        alt="Arte conceptual"
+                    >
+
+                    <span class="image-hover">
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </span>
+
+                </button>
+
+
+                <div class="featured-info">
+
+
+                    <div class="featured-icon">
+
+                        <i class="fa-solid fa-paintbrush"></i>
+
+                    </div>
+
+
+                    <h3>
+                        ARTE CONCEPTUAL
+                    </h3>
+
+
+                    <p>
+
+                        Explora bocetos, ideas visuales
+                        y conceptos inspirados en Rayman.
+
+                    </p>
+
+
+                </div>
+
+
+            </article>
+
+
+            <article
+                class="featured-gallery-card illustrations reveal-card"
+            >
+
+
+                <button
+                    class="featured-image gallery-open-image"
+                    data-image-index="8"
+                >
+
+                    <img
+                        src="img/GALERIA/MENU ILUSTRACIONES.png"
+                        alt="Ilustraciones"
+                    >
+
+                    <span class="image-hover">
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </span>
+
+                </button>
+
+
+                <div class="featured-info">
+
+
+                    <div class="featured-icon">
+
+                        <i class="fa-solid fa-pencil"></i>
+
+                    </div>
+
+
+                    <h3>
+                        ILUSTRACIONES
+                    </h3>
+
+
+                    <p>
+
+                        Descubre fanarts e ilustraciones
+                        inspiradas en personajes y mundos.
+
+                    </p>
+
+
+                </div>
+
+
+            </article>
+
+
+            <article
+                class="featured-gallery-card video reveal-card"
+            >
+
+
+                <button
+                    class="featured-image"
+                    id="featuredVideoButton"
+                >
+
+                    <img
+                        src="img/GALERIA/VIDEOS DE LA COMUNIDAD.png"
+                        alt="Videos de la comunidad"
+                    >
+
+                    <span class="image-hover">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </span>
+
+                </button>
+
+
+                <div class="featured-info">
+
+
+                    <div class="featured-icon">
+
+                        <i class="fa-solid fa-circle-play"></i>
+
+                    </div>
+
+
+                    <h3>
+                        VIDEOS DE LA COMUNIDAD
+                    </h3>
+
+
+                    <p>
+
+                        Disfruta contenido audiovisual
+                        relacionado con el universo de Rayman.
+
+                    </p>
+
+
+                </div>
+
+
+            </article>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     LINEA ROJA
+========================================================= -->
+
+<div class="red-section-divider"></div>
+
+
+<!-- =========================================================
+     FILTROS
+========================================================= -->
+
+<section
+    class="gallery-filter-section"
+    id="galeriaContenido"
+>
+
+
+    <div class="gallery-container">
+
+
+        <div class="filter-header reveal">
+
+
+            <div>
+
+                <small>
+                    EXPLORA A TU MANERA
+                </small>
+
+                <h2>
+                    FILTRAR GALERÍA
+                </h2>
+
+            </div>
+
+
+            <p>
+
+                Selecciona una categoría. El contenido
+                aparecerá debajo sin desplazarte
+                a otra sección.
+
+            </p>
+
+
+        </div>
+
+
+        <div class="gallery-filter-menu reveal">
+
+
+            <button
+                class="gallery-filter-button active"
+                data-filter="all"
+            >
+
+                <i class="fa-solid fa-border-all"></i>
+
+                TODO
+
+            </button>
+
+
+            <button
+                class="gallery-filter-button"
+                data-filter="arte"
+            >
+
+                <i class="fa-solid fa-paintbrush"></i>
+
+                ARTE CONCEPTUAL
+
+            </button>
+
+
+            <button
+                class="gallery-filter-button"
+                data-filter="ilustraciones"
+            >
+
+                <i class="fa-solid fa-pencil"></i>
+
+                ILUSTRACIONES
+
+            </button>
+
+
+            <button
+                class="gallery-filter-button"
+                data-filter="videos"
+            >
+
+                <i class="fa-solid fa-play"></i>
+
+                VIDEOS
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     GALERIA COMPLETA
+========================================================= -->
+
+<section class="gallery-grid-section">
+
+
+    <div class="gallery-container">
+
+
+        <header class="section-title reveal">
+
+
+            <i class="fa-solid fa-images"></i>
+
+
+            <div>
+
+                <small>
+                    ARTE, COLOR Y CREATIVIDAD
+                </small>
+
+                <h2>
+                    EXPLORA TODA LA GALERÍA
+                </h2>
+
+            </div>
+
+
+        </header>
+
+
+        <div
+            class="gallery-grid"
+            id="galleryGrid"
+        >
+
+
+<!-- ======================================================
+     ARTE 1
+====================================================== -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="0"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 1.jpg"
+            alt="Arte conceptual 1"
+        >
+
+        <span class="gallery-card-overlay">
+
+            <i class="fa-solid fa-expand"></i>
+
+            <strong>
+                VER IMAGEN
+            </strong>
+
+        </span>
+
+    </button>
+
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+
+            <h3>
+                ARTE CONCEPTUAL 01
+            </h3>
+
+            <span>
+                ARTE CONCEPTUAL
+            </span>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ARTE 2 -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="1"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 2.jpg"
+            alt="Arte conceptual 2"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+            <h3>ARTE CONCEPTUAL 02</h3>
+            <span>ARTE CONCEPTUAL</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ARTE 3 -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="2"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 3.jpg"
+            alt="Arte conceptual 3"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+            <h3>ARTE CONCEPTUAL 03</h3>
+            <span>ARTE CONCEPTUAL</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ARTE 4 -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="3"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 4.jpg"
+            alt="Arte conceptual 4"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+            <h3>ARTE CONCEPTUAL 04</h3>
+            <span>ARTE CONCEPTUAL</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ARTE 5 -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="4"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 5.jpg"
+            alt="Arte conceptual 5"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+            <h3>ARTE CONCEPTUAL 05</h3>
+            <span>ARTE CONCEPTUAL</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ARTE 6 -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="5"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 6.jpg"
+            alt="Arte conceptual 6"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+            <h3>ARTE CONCEPTUAL 06</h3>
+            <span>ARTE CONCEPTUAL</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ARTE 7 -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="6"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 7.jpg"
+            alt="Arte conceptual 7"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+            <h3>ARTE CONCEPTUAL 07</h3>
+            <span>ARTE CONCEPTUAL</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ARTE 8 -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="arte"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="7"
+    >
+
+        <img
+            src="img/GALERIA/ARTE 8.jpg"
+            alt="Arte conceptual 8"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon purple">
+            <i class="fa-solid fa-paintbrush"></i>
+        </span>
+
+        <div>
+            <h3>ARTE CONCEPTUAL 08</h3>
+            <span>ARTE CONCEPTUAL</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ======================================================
+     FANART / ILUSTRACIONES
+====================================================== -->
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="8"
+    >
+
+        <img
+            src="img/GALERIA/FANART 1.jpg"
+            alt="Ilustración 1"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 01</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="9"
+    >
+
+        <img
+            src="img/GALERIA/FANART 2.jpg"
+            alt="Ilustración 2"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 02</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="10"
+    >
+
+        <img
+            src="img/GALERIA/FANART 3.jpg"
+            alt="Ilustración 3"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 03</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="11"
+    >
+
+        <img
+            src="img/GALERIA/FANART 4.jpg"
+            alt="Ilustración 4"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 04</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="12"
+    >
+
+        <img
+            src="img/GALERIA/FANART 5.jpg"
+            alt="Ilustración 5"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 05</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="13"
+    >
+
+        <img
+            src="img/GALERIA/FANART 6.jpg"
+            alt="Ilustración 6"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 06</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="14"
+    >
+
+        <img
+            src="img/GALERIA/FANART 7.jpg"
+            alt="Ilustración 7"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 07</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card reveal-card"
+    data-category="ilustraciones"
+>
+
+    <button
+        class="gallery-card-image gallery-open-image"
+        data-image-index="15"
+    >
+
+        <img
+            src="img/GALERIA/FANART 8.jpg"
+            alt="Ilustración 8"
+        >
+
+        <span class="gallery-card-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <strong>VER IMAGEN</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon blue">
+            <i class="fa-solid fa-pencil"></i>
+        </span>
+
+        <div>
+            <h3>ILUSTRACIÓN 08</h3>
+            <span>ILUSTRACIONES</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<!-- ======================================================
+     VIDEOS
+     MISMA PORTADA PARA TODOS
+====================================================== -->
+
+<article
+    class="gallery-card video-card reveal-card"
+    data-category="videos"
+>
+
+    <button
+        class="gallery-card-image open-video"
+        data-video="PevoXzPJSJ4"
+        data-title="Rayman Origins"
+    >
+
+        <img
+            src="img/GALERIA/VIDEOS DE LA COMUNIDAD.png"
+            alt="Videos de la comunidad"
+        >
+
+        <span class="gallery-card-overlay video-overlay">
+            <i class="fa-solid fa-play"></i>
+            <strong>REPRODUCIR</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon red">
+            <i class="fa-solid fa-play"></i>
+        </span>
+
+        <div>
+            <h3>VIDEO DE LA COMUNIDAD 01</h3>
+            <span>VIDEOS</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card video-card reveal-card"
+    data-category="videos"
+>
+
+    <button
+        class="gallery-card-image open-video"
+        data-video="2_7BQ9hLGkk"
+        data-title="Rayman Legends"
+    >
+
+        <img
+            src="img/GALERIA/VIDEOS DE LA COMUNIDAD.png"
+            alt="Videos de la comunidad"
+        >
+
+        <span class="gallery-card-overlay video-overlay">
+            <i class="fa-solid fa-play"></i>
+            <strong>REPRODUCIR</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon red">
+            <i class="fa-solid fa-play"></i>
+        </span>
+
+        <div>
+            <h3>VIDEO DE LA COMUNIDAD 02</h3>
+            <span>VIDEOS</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card video-card reveal-card"
+    data-category="videos"
+>
+
+    <button
+        class="gallery-card-image open-video"
+        data-video="6KujjiLYaW8"
+        data-title="Rayman 2"
+    >
+
+        <img
+            src="img/GALERIA/VIDEOS DE LA COMUNIDAD.png"
+            alt="Videos de la comunidad"
+        >
+
+        <span class="gallery-card-overlay video-overlay">
+            <i class="fa-solid fa-play"></i>
+            <strong>REPRODUCIR</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon red">
+            <i class="fa-solid fa-play"></i>
+        </span>
+
+        <div>
+            <h3>VIDEO DE LA COMUNIDAD 03</h3>
+            <span>VIDEOS</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+<article
+    class="gallery-card video-card reveal-card"
+    data-category="videos"
+>
+
+    <button
+        class="gallery-card-image open-video"
+        data-video="o0KzXDnleOg"
+        data-title="Rayman 3"
+    >
+
+        <img
+            src="img/GALERIA/VIDEOS DE LA COMUNIDAD.png"
+            alt="Videos de la comunidad"
+        >
+
+        <span class="gallery-card-overlay video-overlay">
+            <i class="fa-solid fa-play"></i>
+            <strong>REPRODUCIR</strong>
+        </span>
+
+    </button>
+
+    <div class="gallery-card-info">
+
+        <span class="category-icon red">
+            <i class="fa-solid fa-play"></i>
+        </span>
+
+        <div>
+            <h3>VIDEO DE LA COMUNIDAD 04</h3>
+            <span>VIDEOS</span>
+        </div>
+
+    </div>
+
+</article>
+
+
+        </div>
+
+
+        <div
+            class="empty-gallery"
+            id="emptyGallery"
+        >
+
+            <i class="fa-regular fa-image"></i>
+
+            <h3>
+                NO HAY CONTENIDO EN ESTA CATEGORÍA
+            </h3>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     CTA
+========================================================= -->
+
+<section class="gallery-cta">
+
+
+    <div class="cta-character">
+
+        <img
+            src="img/GALERIA/HADA GALERIA.png"
+            alt="Personaje"
+        >
+
+    </div>
+
+
+    <div class="cta-copy">
+
+
+        <small>
+            CONTINÚA EXPLORANDO
+        </small>
+
+
+        <h2>
+            ¿LISTO PARA LA AVENTURA?
+        </h2>
+
+
+        <p>
+
+            Descubre cómo nació este proyecto,
+            conoce el proceso creativo y explora
+            todo el trabajo detrás de Mundo Rayman.
+
+        </p>
+
+
+    </div>
+
+
+    <div class="cta-buttons">
+
+
+        <a
+            href="proyecto.html"
+            class="cta-button"
+        >
+
+            <i class="fa-solid fa-circle-info"></i>
+
+            <span>
+                CONOCE EL PROYECTO
+            </span>
+
+        </a>
+
+
+        <a
+            href="https://heyzine.com/flip-book/12452f922a.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cta-button magazine-cta-button"
+        >
+
+            <i class="fa-solid fa-book-open"></i>
+
+            <span>
+                MIRA NUESTRA REVISTA
+            </span>
+
+        </a>
+
+
+    </div>
+
+
+</section>
+
+
+</div>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<div class="footer-zone">
+
+
+    <div
+        class="footer-particles"
+        id="footerParticles"
+    ></div>
+
+
+    <footer class="footer">
+
+
+        <div class="footer-content">
+
+
+            <div class="footer-logo">
+
+                <img
+                    src="img/RAYMAN FOOTER.png"
+                    alt="Rayman"
+                >
+
+            </div>
+
+
+            <div class="footer-divider"></div>
+
+
+            <div class="footer-contact">
+
+                <h3>
+                    Contacto
+                </h3>
+
+                <p>
+                    Rayman.co
+                </p>
+
+                <p>
+                    +57 324 596 1367
+                </p>
+
+                <p>
+                    Cra. 84 #17 - 42, Engativá
+                </p>
+
+            </div>
+
+
+            <div class="footer-social">
+
+
+                <a
+                    href="https://www.instagram.com/rayman_game/?hl=es-la"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+
+                <a
+                    href="https://www.tiktok.com/@raymanadventuresfan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 MUNDO RAYMAN
+        </p>
+
+
+    </footer>
+
+
+</div>
+
+
+<!-- =========================================================
+     CONTROLES FLOTANTES
+========================================================= -->
+
+<div class="floating-controls">
+
+
+    <button
+        class="floating-button music-button"
+        id="musicButton"
+        aria-label="Activar o detener música"
+    >
+
+        <i
+            class="fa-solid fa-volume-xmark"
+            id="musicIcon"
+        ></i>
+
+    </button>
+
+
+    <button
+        class="floating-button top-button"
+        id="topButton"
+        aria-label="Volver arriba"
+    >
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+</div>
+
+
+<!-- =========================================================
+     LIGHTBOX
+========================================================= -->
+
+<div
+    class="gallery-lightbox"
+    id="galleryLightbox"
+>
+
+
+    <div
+        class="lightbox-overlay"
+        id="lightboxOverlay"
+    ></div>
+
+
+    <div class="lightbox-window">
+
+
+        <button
+            class="lightbox-close"
+            id="lightboxClose"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+
+        <button
+            class="lightbox-arrow lightbox-prev"
+            id="lightboxPrev"
+        >
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+
+        <button
+            class="lightbox-arrow lightbox-next"
+            id="lightboxNext"
+        >
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+
+        <div class="lightbox-layout">
+
+
+            <div class="lightbox-image-area">
+
+
+                <img
+                    id="lightboxImage"
+                    src=""
+                    alt=""
+                >
+
+
+            </div>
+
+
+            <aside class="lightbox-info">
+
+
+                <small id="lightboxCategory">
+                    GALERÍA
+                </small>
+
+
+                <h2 id="lightboxTitle">
+                    IMAGEN
+                </h2>
+
+
+                <p id="lightboxDescription"></p>
+
+
+                <div class="lightbox-line"></div>
+
+
+                <div class="lightbox-counter">
+
+                    <i class="fa-solid fa-images"></i>
+
+                    <strong id="lightboxCounter">
+                        1 / 16
+                    </strong>
+
+                </div>
+
+
+                <p class="lightbox-help">
+
+                    <i class="fa-solid fa-circle-info"></i>
+
+                    Utiliza las flechas para recorrer
+                    todas las imágenes.
+
+                </p>
+
+
+            </aside>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<!-- =========================================================
+     MODAL VIDEOS
+========================================================= -->
+
+<div
+    class="video-modal"
+    id="videoModal"
+>
+
+
+    <div
+        class="video-modal-overlay"
+        id="videoModalOverlay"
+    ></div>
+
+
+    <div class="video-modal-window">
+
+
+        <div class="video-modal-header">
+
+
+            <div>
+
+                <small>
+                    MUNDO RAYMAN
+                </small>
+
+                <h2 id="videoModalTitle">
+                    VIDEO
+                </h2>
+
+            </div>
+
+
+            <button
+                id="videoModalClose"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+        </div>
+
+
+        <div class="video-frame">
+
+
+            <iframe
+                id="videoFrame"
+                src=""
+                title="Video Rayman"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script src="galeria.js"></script>
+
+<!-- VENTANA EMERGENTE SOBRE EL PROYECTO -->
+<script src="proyecto-modal.js"></script>
+
+</body>
+</html>

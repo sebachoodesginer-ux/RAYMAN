@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Explora los videojuegos del universo de Rayman."
+    >
+
+    <title>Juegos | Mundo Rayman</title>
+
+    <link
+        rel="icon"
+        href="img/CABEZA RAYMAN MENU SUPERIOR.png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="juegos.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     CURSOR
+========================================================= -->
+
+<div
+    class="cursor-rayman"
+    id="cursorRayman"
+>
+    <img
+        src="img/MOUSE RAYMAN WEB.png"
+        alt=""
+    >
+</div>
+
+
+<!-- =========================================================
+     MUSICA
+========================================================= -->
+
+<div
+    id="musicaYoutube"
+    class="youtube-musica"
+></div>
+
+
+<!-- =========================================================
+     HEADER PRINCIPAL
+========================================================= -->
+
+<header
+    class="header"
+    id="header"
+>
+
+    <div class="header-bg"></div>
+
+    <div class="header-content">
+
+        <a
+            href="index.html"
+            class="main-logo"
+        >
+            <img
+                src="img/RAYMAN LOGO MENU.png"
+                alt="Rayman"
+            >
+        </a>
+
+
+        <nav class="desktop-menu">
+
+            <a
+                href="rayman.html"
+                class="menu-link"
+            >
+                <img
+                    src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+                    alt=""
+                    class="rayman-head"
+                >
+
+                <span>RAYMAN</span>
+            </a>
+
+
+            <a
+                href="juegos.html"
+                class="menu-link activo"
+            >
+                <i class="fa-solid fa-gamepad"></i>
+
+                <span>JUEGOS</span>
+            </a>
+
+
+            <a
+                href="personajes.html"
+                class="menu-link"
+            >
+                <i class="fa-solid fa-user-group"></i>
+
+                <span>PERSONAJES</span>
+            </a>
+
+
+            <a
+                href="mundos.html"
+                class="menu-link"
+            >
+                <i class="fa-solid fa-earth-americas"></i>
+
+                <span>MUNDOS</span>
+            </a>
+
+
+            <a
+                href="galeria.html"
+                class="menu-link"
+            >
+                <i class="fa-regular fa-image"></i>
+
+                <span>GALERÍA</span>
+            </a>
+
+        </nav>
+
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Abrir menú"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     OVERLAY MOBILE
+========================================================= -->
+
+<div
+    class="mobile-overlay"
+    id="mobileOverlay"
+></div>
+
+
+<!-- =========================================================
+     MENU MOBILE
+========================================================= -->
+
+<aside
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <div class="mobile-menu-top">
+
+        <a href="index.html">
+            <img
+                src="img/RAYMAN LOGO MENU.png"
+                alt="Rayman"
+            >
+        </a>
+
+
+        <button
+            id="closeMobile"
+            aria-label="Cerrar menú"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+
+    <nav class="mobile-main-nav">
+
+        <a
+            href="rayman.html"
+            class="mobile-item"
+        >
+            <img
+                src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+                alt=""
+            >
+
+            <span>RAYMAN</span>
+        </a>
+
+
+        <a
+            href="juegos.html"
+            class="mobile-item activo"
+        >
+            <i class="fa-solid fa-gamepad"></i>
+
+            <span>JUEGOS</span>
+        </a>
+
+
+        <a
+            href="personajes.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-user-group"></i>
+
+            <span>PERSONAJES</span>
+        </a>
+
+
+        <a
+            href="mundos.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-earth-americas"></i>
+
+            <span>MUNDOS</span>
+        </a>
+
+
+        <a
+            href="galeria.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-images"></i>
+
+            <span>GALERÍA</span>
+        </a>
+
+
+        <a
+            href="proyecto.html"
+            class="mobile-item"
+        >
+            <i class="fa-solid fa-circle-info"></i>
+
+            <span>SOBRE EL PROYECTO</span>
+        </a>
+
+    </nav>
+
+
+    <div class="mobile-games-divider"></div>
+
+
+    <!-- =====================================================
+         SUBMENU JUEGOS MOBILE
+    ====================================================== -->
+
+    <div class="mobile-games-head">
+
+        <img
+            src="img/JUEGOS/RAYMAN JUEGOS MORADO.png"
+            alt="Rayman Juegos"
+        >
+
+        <h2>
+            JUEGOS
+        </h2>
+
+    </div>
+
+
+    <nav class="mobile-games-nav">
+
+        <a
+            href="#todosLosJuegos"
+            class="mobile-games-link active"
+            data-mobile-filter="all"
+        >
+
+            <img
+                src="img/JUEGOS/TODOS LOS JUEGOS MENU.png"
+                alt=""
+            >
+
+            <span>
+                TODOS LOS JUEGOS
+            </span>
+
+        </a>
+
+
+        <a
+            href="#juegoDestacado"
+            class="mobile-games-link"
+            data-mobile-filter="principal"
+        >
+
+            <img
+                src="img/JUEGOS/JUEGOS PRINCIPALES MENU.png"
+                alt=""
+            >
+
+            <span>
+                JUEGOS PRINCIPALES
+            </span>
+
+        </a>
+
+
+        <a
+            href="#todosLosJuegos"
+            class="mobile-games-link"
+            data-mobile-filter="spinoff"
+        >
+
+            <img
+                src="img/JUEGOS/SPINS OFF MENU.png"
+                alt=""
+            >
+
+            <span>
+                SPIN - OFFS
+            </span>
+
+        </a>
+
+
+        <a
+            href="#todosLosJuegos"
+            class="mobile-games-link"
+            data-mobile-filter="remake"
+        >
+
+            <img
+                src="img/JUEGOS/REMAKES MENU.png"
+                alt=""
+            >
+
+            <span>
+                REMAKES
+            </span>
+
+        </a>
+
+    </nav>
+
+</aside>
+
+
+<!-- =========================================================
+     MENU EXTRA MORADO PC
+========================================================= -->
+
+<div
+    class="games-panel-overlay"
+    id="gamesPanelOverlay"
+></div>
+
+
+<aside
+    class="games-panel"
+    id="gamesPanel"
+>
+
+    <div class="games-panel-bg">
+        <img
+            src="img/JUEGOS/MENU LATERAL JUEGOS MORADO.png"
+            alt=""
+        >
+    </div>
+
+
+    <div class="games-panel-content">
+
+
+        <a
+            href="index.html"
+            class="panel-main-logo"
+        >
+            <img
+                src="img/RAYMAN LOGO MENU.png"
+                alt="Rayman"
+            >
+        </a>
+
+
+        <div class="games-rayman">
+            <img
+                src="img/JUEGOS/RAYMAN JUEGOS MORADO.png"
+                alt="Rayman"
+            >
+        </div>
+
+
+        <h2 class="games-panel-title">
+            JUEGOS
+        </h2>
+
+
+        <nav class="games-panel-nav">
+
+
+            <a
+                href="#todosLosJuegos"
+                class="games-panel-link active"
+                data-panel-filter="all"
+            >
+
+                <img
+                    src="img/JUEGOS/TODOS LOS JUEGOS MENU.png"
+                    alt=""
+                >
+
+                <span>
+                    TODOS LOS JUEGOS
+                </span>
+
+            </a>
+
+
+            <a
+                href="#juegoDestacado"
+                class="games-panel-link"
+                data-panel-filter="principal"
+            >
+
+                <img
+                    src="img/JUEGOS/JUEGOS PRINCIPALES MENU.png"
+                    alt=""
+                >
+
+                <span>
+                    JUEGOS PRINCIPALES
+                </span>
+
+            </a>
+
+
+            <a
+                href="#todosLosJuegos"
+                class="games-panel-link"
+                data-panel-filter="spinoff"
+            >
+
+                <img
+                    src="img/JUEGOS/SPINS OFF MENU.png"
+                    alt=""
+                >
+
+                <span>
+                    SPIN - OFFS
+                </span>
+
+            </a>
+
+
+            <a
+                href="#todosLosJuegos"
+                class="games-panel-link"
+                data-panel-filter="remake"
+            >
+
+                <img
+                    src="img/JUEGOS/REMAKES MENU.png"
+                    alt=""
+                >
+
+                <span>
+                    REMAKES
+                </span>
+
+            </a>
+
+        </nav>
+
+    </div>
+
+
+    <button
+        class="games-panel-toggle"
+        id="gamesPanelToggle"
+        aria-label="Abrir menú de juegos"
+    >
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+</aside>
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="games-hero">
+
+    <div class="games-hero-bg"></div>
+
+    <div class="games-top-fade"></div>
+
+
+    <div class="games-hero-content">
+
+
+        <p class="hero-eyebrow">
+            INICIO › JUEGOS › TODOS LOS JUEGOS
+        </p>
+
+
+        <p class="hero-kicker">
+            JUEGOS DE
+        </p>
+
+
+        <h1>
+            RAYMAN
+        </h1>
+
+
+        <div class="hero-purple-brush">
+
+            <img
+                src="img/JUEGOS/PINCEL MORADO BANNER.png"
+                alt=""
+            >
+
+            <span>
+                EXPLORA LA AVENTURA SIN LÍMITES
+            </span>
+
+        </div>
+
+
+        <div class="hero-description">
+
+            <p>
+                Explora toda la colección de juegos de Rayman.
+                Desde sus primeras aventuras en 2D hasta sus mundos
+                tridimensionales, descubre historias, personajes y
+                desafíos que marcaron la evolución de la saga.
+            </p>
+
+        </div>
+
+
+        <div class="hero-actions">
+
+
+            <button
+                class="hero-trailer"
+                id="heroTrailerButton"
+            >
+
+                <img
+                    src="img/JUEGOS/PINCEL AMARILLO TRAILER.png"
+                    alt=""
+                >
+
+                <span>
+                    <i class="fa-solid fa-play"></i>
+
+                    VER TRÁILER
+                </span>
+
+            </button>
+
+
+            <a
+                href="#todosLosJuegos"
+                class="hero-explore"
+            >
+                EXPLORAR JUEGOS
+
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTENIDO
+========================================================= -->
+
+<div class="games-content-zone">
+
+
+    <div
+        class="background-bubbles"
+        id="backgroundBubbles"
+    ></div>
+
+
+    <div
+        class="games-rising-particles"
+        id="gamesRisingParticles"
+    ></div>
+
+
+    <!-- =====================================================
+         FILTROS
+    ====================================================== -->
+
+    <section
+        class="games-filter-section"
+        id="todosLosJuegos"
+    >
+
+        <div class="games-container">
+
+            <div class="games-filter-menu reveal">
+
+
+                <button
+                    class="game-filter-button active"
+                    data-filter="all"
+                >
+                    <i class="fa-solid fa-border-all"></i>
+
+                    TODOS
+                </button>
+
+
+                <button
+                    class="game-filter-button"
+                    data-filter="principal"
+                >
+                    <i class="fa-solid fa-star"></i>
+
+                    JUEGOS PRINCIPALES
+                </button>
+
+
+                <button
+                    class="game-filter-button"
+                    data-filter="spinoff"
+                >
+                    <i class="fa-solid fa-bullseye"></i>
+
+                    SPIN - OFFS
+                </button>
+
+
+                <button
+                    class="game-filter-button"
+                    data-filter="remake"
+                >
+                    <i class="fa-solid fa-rotate"></i>
+
+                    REMAKES Y VERSIONES
+                </button>
+
+            </div>
+
+
+            <div class="games-sort">
+
+                <span>
+                    ORDENAR POR:
+                </span>
+
+
+                <select id="gamesSort">
+
+                    <option value="recent">
+                        Más recientes
+                    </option>
+
+                    <option value="old">
+                        Más antiguos
+                    </option>
+
+                    <option value="name">
+                        Nombre
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="red-section-divider"></div>
+
+
+    <!-- =====================================================
+         DESTACADO
+    ====================================================== -->
+
+    <section
+        class="featured-game-section"
+        id="juegoDestacado"
+    >
+
+        <div class="games-container">
+
+
+            <header class="section-title reveal">
+
+                <i class="fa-solid fa-star"></i>
+
+                <div>
+
+                    <small>
+                        UNA AVENTURA INOLVIDABLE
+                    </small>
+
+                    <h2>
+                        JUEGO DESTACADO
+                    </h2>
+
+                </div>
+
+            </header>
+
+
+            <div class="featured-game reveal-card">
+
+
+                <button
+                    class="featured-cover open-game-modal"
+                    data-game="origins"
+                >
+
+                    <img
+                        src="img/JUEGOS/SECCION 3 RAYMAN ORIGINS.png"
+                        alt="Rayman Origins"
+                    >
+
+                    <span class="cover-hover">
+
+                        <i class="fa-solid fa-play"></i>
+
+                        VER JUEGO
+
+                    </span>
+
+                </button>
+
+
+                <div class="featured-game-copy">
+
+                    <p class="featured-label">
+                        DESTACADO
+                    </p>
+
+
+                    <h3>
+                        RAYMAN ORIGINS
+                    </h3>
+
+
+                    <div class="game-tags">
+
+                        <span>2011</span>
+                        <span>2D</span>
+                        <span>PLATAFORMAS</span>
+                        <span>AVENTURA</span>
+
+                    </div>
+
+
+                    <p>
+                        Un regreso triunfal de Rayman con una aventura
+                        2D llena de color, creatividad, humor, velocidad
+                        y escenarios inolvidables.
+                    </p>
+
+
+                    <button
+                        class="details-button open-game-modal"
+                        data-game="origins"
+                    >
+                        VER DETALLES
+                    </button>
+
+                </div>
+
+
+                <div class="featured-score">
+
+                    <div class="score-top">
+
+                        <span class="score-star">
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+
+                        <div>
+
+                            <strong>
+                                9.2
+                            </strong>
+
+                            <span>/10</span>
+
+                            <small>
+                                Valoración de la comunidad
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            <strong>Plataformas:</strong>
+                            5
+                        </li>
+
+                        <li>
+                            <strong>Género:</strong>
+                            Plataformas / Aventura
+                        </li>
+
+                        <li>
+                            <strong>Lanzamiento:</strong>
+                            2011
+                        </li>
+
+                        <li>
+                            <strong>Desarrollador:</strong>
+                            Ubisoft Montpellier
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="red-section-divider"></div>
+
+
+    <!-- =====================================================
+         TODOS LOS JUEGOS
+    ====================================================== -->
+
+    <section class="all-games-section">
+
+        <div class="games-container">
+
+
+            <header class="section-title reveal">
+
+                <i class="fa-solid fa-gamepad"></i>
+
+                <div>
+
+                    <small>
+                        RECORRE LA SAGA
+                    </small>
+
+                    <h2>
+                        EXPLORA TODOS LOS JUEGOS
+                    </h2>
+
+                </div>
+
+            </header>
+
+
+            <div
+                class="games-grid"
+                id="gamesGrid"
+            >
+
+
+                <!-- RAYMAN -->
+
+                <article
+                    class="game-card reveal-card"
+                    data-category="principal"
+                    data-year="1995"
+                    data-name="Rayman"
+                >
+
+                    <button
+                        class="game-card-image open-game-modal"
+                        data-game="rayman1"
+                    >
+
+                        <img
+                            src="img/JUEGOS/SECCION 3 RAYMAN.png"
+                            alt="Rayman"
+                        >
+
+                        <span class="game-card-play">
+                            <i class="fa-solid fa-play"></i>
+                        </span>
+
+                    </button>
+
+
+                    <div class="game-card-body">
+
+                        <h3>
+                            RAYMAN
+                        </h3>
+
+
+                        <div class="game-tags">
+
+                            <span>1995</span>
+                            <span>2D</span>
+                            <span>PLATAFORMAS</span>
+
+                        </div>
+
+
+                        <p>
+                            El comienzo de una de las sagas
+                            de plataformas más recordadas.
+                        </p>
+
+
+                        <button
+                            class="game-card-button open-game-modal"
+                            data-game="rayman1"
+                        >
+                            VER DETALLES
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- RAYMAN 2 -->
+
+                <article
+                    class="game-card reveal-card"
+                    data-category="principal"
+                    data-year="1999"
+                    data-name="Rayman 2"
+                >
+
+                    <button
+                        class="game-card-image open-game-modal"
+                        data-game="rayman2"
+                    >
+
+                        <img
+                            src="img/JUEGOS/SECCION 3 RAYMAN 2.png"
+                            alt="Rayman 2"
+                        >
+
+                        <span class="game-card-play">
+                            <i class="fa-solid fa-play"></i>
+                        </span>
+
+                    </button>
+
+
+                    <div class="game-card-body">
+
+                        <h3>
+                            RAYMAN 2
+                            <br>
+                            THE GREAT ESCAPE
+                        </h3>
+
+
+                        <div class="game-tags">
+
+                            <span>1999</span>
+                            <span>3D</span>
+                            <span>AVENTURA</span>
+
+                        </div>
+
+
+                        <p>
+                            La saga da el salto a las tres dimensiones
+                            con una aventura mucho más ambiciosa.
+                        </p>
+
+
+                        <button
+                            class="game-card-button open-game-modal"
+                            data-game="rayman2"
+                        >
+                            VER DETALLES
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- RAYMAN 3 -->
+
+                <article
+                    class="game-card reveal-card"
+                    data-category="principal"
+                    data-year="2003"
+                    data-name="Rayman 3"
+                >
+
+                    <button
+                        class="game-card-image open-game-modal"
+                        data-game="rayman3"
+                    >
+
+                        <img
+                            src="img/JUEGOS/SECCION 3 RAYMAN 3.png"
+                            alt="Rayman 3"
+                        >
+
+                        <span class="game-card-play">
+                            <i class="fa-solid fa-play"></i>
+                        </span>
+
+                    </button>
+
+
+                    <div class="game-card-body">
+
+                        <h3>
+                            RAYMAN 3
+                            <br>
+                            HOODLUM HAVOC
+                        </h3>
+
+
+                        <div class="game-tags">
+
+                            <span>2003</span>
+                            <span>3D</span>
+                            <span>ACCIÓN</span>
+
+                        </div>
+
+
+                        <p>
+                            Nuevos poderes, enemigos y escenarios
+                            dentro de una aventura cargada de humor.
+                        </p>
+
+
+                        <button
+                            class="game-card-button open-game-modal"
+                            data-game="rayman3"
+                        >
+                            VER DETALLES
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ORIGINS -->
+
+                <article
+                    class="game-card reveal-card"
+                    data-category="principal remake"
+                    data-year="2011"
+                    data-name="Rayman Origins"
+                >
+
+                    <button
+                        class="game-card-image open-game-modal"
+                        data-game="origins"
+                    >
+
+                        <img
+                            src="img/JUEGOS/SECCION 3 RAYMAN ORIGINS.png"
+                            alt="Rayman Origins"
+                        >
+
+                        <span class="game-card-play">
+                            <i class="fa-solid fa-play"></i>
+                        </span>
+
+                    </button>
+
+
+                    <div class="game-card-body">
+
+                        <h3>
+                            RAYMAN ORIGINS
+                        </h3>
+
+
+                        <div class="game-tags">
+
+                            <span>2011</span>
+                            <span>2D</span>
+                            <span>PLATAFORMAS</span>
+
+                        </div>
+
+
+                        <p>
+                            Rayman regresa a sus raíces con
+                            una espectacular dirección artística.
+                        </p>
+
+
+                        <button
+                            class="game-card-button open-game-modal"
+                            data-game="origins"
+                        >
+                            VER DETALLES
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- LEGENDS -->
+
+                <article
+                    class="game-card reveal-card"
+                    data-category="principal"
+                    data-year="2013"
+                    data-name="Rayman Legends"
+                >
+
+                    <button
+                        class="game-card-image open-game-modal"
+                        data-game="legends"
+                    >
+
+                        <img
+                            src="img/JUEGOS/SECCION 3 RAYMAN LEGENDS.png"
+                            alt="Rayman Legends"
+                        >
+
+                        <span class="game-card-play">
+                            <i class="fa-solid fa-play"></i>
+                        </span>
+
+                    </button>
+
+
+                    <div class="game-card-body">
+
+                        <h3>
+                            RAYMAN LEGENDS
+                        </h3>
+
+
+                        <div class="game-tags">
+
+                            <span>2013</span>
+                            <span>2D</span>
+                            <span>PLATAFORMAS</span>
+
+                        </div>
+
+
+                        <p>
+                            Más niveles, mundos, desafíos musicales
+                            y cooperación.
+                        </p>
+
+
+                        <button
+                            class="game-card-button open-game-modal"
+                            data-game="legends"
+                        >
+                            VER DETALLES
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div
+                class="empty-filter-message"
+                id="emptyFilterMessage"
+            >
+
+                <i class="fa-solid fa-gamepad"></i>
+
+                <h3>
+                    NO HAY JUEGOS EN ESTA CATEGORÍA
+                </h3>
+
+            </div>
+
+
+            <!-- =================================================
+                 JUGAR RAYMAN
+            ================================================== -->
+
+            <div class="play-original-zone reveal">
+
+                <button
+                    class="play-original-button"
+                    id="playOriginalButton"
+                >
+
+                    <span class="play-original-icon">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </span>
+
+
+                    <span class="play-original-text">
+
+                        <small>
+                            REVIVE EL CLÁSICO
+                        </small>
+
+                        <strong>
+                            JUEGA EL RAYMAN ORIGINAL
+                        </strong>
+
+                    </span>
+
+
+                    <i
+                        class="fa-solid fa-play play-original-arrow"
+                    ></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CTA
+    ====================================================== -->
+
+    <section class="games-cta">
+
+        <div class="cta-frog">
+
+            <img
+                src="img/JUEGOS/RANA JUEGOS.png"
+                alt="Personaje Rayman"
+            >
+
+        </div>
+
+
+        <div class="cta-copy">
+
+            <small>
+                CONTINÚA EXPLORANDO
+            </small>
+
+
+            <h2>
+                ¿LISTO PARA CONOCER LOS PERSONAJES?
+            </h2>
+
+
+            <p>
+                Descubre quiénes acompañan a Rayman,
+                conoce aliados, personajes secundarios
+                y enemigos del universo.
+            </p>
+
+        </div>
+
+
+        <a
+            href="personajes.html"
+            class="cta-button"
+        >
+
+            <i class="fa-solid fa-user-group"></i>
+
+            <span>
+                EXPLORA PERSONAJES
+            </span>
+
+        </a>
+
+    </section>
+
+
+</div>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<div class="footer-zone">
+
+    <div
+        class="footer-particles"
+        id="footerParticles"
+    ></div>
+
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+
+            <div class="footer-logo">
+
+                <img
+                    src="img/RAYMAN FOOTER.png"
+                    alt="Rayman"
+                >
+
+            </div>
+
+
+            <div class="footer-divider"></div>
+
+
+            <div class="footer-contact">
+
+                <h3>
+                    Contacto
+                </h3>
+
+                <p>
+                    Rayman.co
+                </p>
+
+                <p>
+                    +57 324 596 1367
+                </p>
+
+                <p>
+                    Cra. 84 #17 - 42, Engativá
+                </p>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <a
+                    href="https://www.instagram.com/rayman_game/?hl=es-la"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+
+                <a
+                    href="https://www.tiktok.com/@raymanadventuresfan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 MUNDO RAYMAN
+        </p>
+
+    </footer>
+
+</div>
+
+
+<!-- =========================================================
+     BOTONES FLOTANTES
+========================================================= -->
+
+<div class="floating-controls">
+
+    <button
+        class="floating-button music-button"
+        id="musicButton"
+    >
+        <i
+            class="fa-solid fa-volume-xmark"
+            id="musicIcon"
+        ></i>
+    </button>
+
+
+    <button
+        class="floating-button top-button"
+        id="topButton"
+    >
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+</div>
+
+
+<!-- =========================================================
+     MODAL INFORMACION
+========================================================= -->
+
+<div
+    class="game-modal"
+    id="gameModal"
+>
+
+    <div
+        class="game-modal-overlay"
+        id="gameModalOverlay"
+    ></div>
+
+
+    <div class="game-modal-window">
+
+        <button
+            class="game-modal-close"
+            id="gameModalClose"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+
+        <div class="modal-video-wrapper">
+
+            <iframe
+                id="gameModalVideo"
+                src=""
+                title="Trailer"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+
+        </div>
+
+
+        <div class="game-modal-info">
+
+            <div class="modal-game-heading">
+
+                <div>
+
+                    <small id="modalGameYear"></small>
+
+                    <h2 id="modalGameTitle"></h2>
+
+                    <p id="modalGameSubtitle"></p>
+
+                </div>
+
+
+                <div class="modal-score">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    <strong id="modalGameScore"></strong>
+
+                    <span>/10</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="modal-game-columns">
+
+                <div>
+
+                    <h3>
+                        SOBRE EL JUEGO
+                    </h3>
+
+
+                    <p
+                        id="modalGameDescription"
+                        class="modal-description"
+                    ></p>
+
+
+                    <div class="modal-data">
+
+                        <div>
+                            <span>GÉNERO</span>
+
+                            <strong id="modalGenre"></strong>
+                        </div>
+
+
+                        <div>
+                            <span>DESARROLLADOR</span>
+
+                            <strong id="modalDeveloper"></strong>
+                        </div>
+
+
+                        <div>
+                            <span>LANZAMIENTO</span>
+
+                            <strong id="modalRelease"></strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        DISPONIBLE EN
+                    </h3>
+
+
+                    <div
+                        class="platform-list"
+                        id="platformList"
+                    ></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     MODAL JUEGOS JUGABLES
+========================================================= -->
+
+<div
+    class="original-game-modal"
+    id="originalGameModal"
+>
+
+    <div
+        class="original-game-backdrop"
+        id="originalGameBackdrop"
+    ></div>
+
+
+    <div class="original-game-window">
+
+        <div class="original-game-header">
+
+            <div>
+
+                <small>
+                    JUEGA DIRECTAMENTE
+                </small>
+
+                <h2>
+                    UNIVERSO RAYMAN
+                </h2>
+
+            </div>
+
+
+            <button
+                id="closeOriginalGame"
+                class="close-original-game"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <div class="original-game-info">
+
+            <div
+                class="game-info-number"
+                id="playableGameNumber"
+            >
+                01
+            </div>
+
+
+            <div class="game-info-copy">
+
+                <small id="playableGameYear">
+                    1995
+                </small>
+
+
+                <h3 id="playableGameTitle">
+                    RAYMAN
+                </h3>
+
+
+                <p id="playableGameDescription">
+                    Revive una aventura clásica del universo Rayman.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="original-game-frame-wrapper">
+
+            <button
+                class="game-switch-arrow previous-game"
+                id="previousPlayableGame"
+            >
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+
+            <div
+                class="original-game-frame"
+                id="originalGameFrame"
+            ></div>
+
+
+            <button
+                class="game-switch-arrow next-game"
+                id="nextPlayableGame"
+            >
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+
+        <div class="playable-game-dots">
+
+            <button
+                class="playable-dot active"
+                data-playable-index="0"
+            ></button>
+
+            <button
+                class="playable-dot"
+                data-playable-index="1"
+            ></button>
+
+            <button
+                class="playable-dot"
+                data-playable-index="2"
+            ></button>
+
+            <button
+                class="playable-dot"
+                data-playable-index="3"
+            ></button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script src="juegos.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Conoce la historia, origen, características y evolución de Rayman.">
+
+    <title>Mundo Rayman | Rayman</title>
+
+    <link rel="icon"
+          type="image/png"
+          href="img/CABEZA RAYMAN MENU SUPERIOR.png">
+
+    <!-- CSS DE RAYMAN -->
+    <link rel="stylesheet"
+          href="rayman.css">
+
+    <!-- CSS VENTANA SOBRE EL PROYECTO -->
+    <link rel="stylesheet"
+          href="proyecto-modal.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- FUENTES -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     CURSOR
+========================================================= -->
+
+<div class="cursor-rayman"
+     id="cursorRayman">
+
+    <img src="img/MOUSE RAYMAN WEB.png"
+         alt="">
+
+</div>
+
+
+<!-- =========================================================
+     MUSICA
+========================================================= -->
+
+<div id="musicaYoutube"
+     class="youtube-musica">
+</div>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header class="header"
+        id="header">
+
+    <div class="header-bg"></div>
+
+    <div class="header-content">
+
+
+        <a href="index.html"
+           class="main-logo">
+
+            <img src="img/RAYMAN LOGO MENU.png"
+                 alt="Rayman">
+
+        </a>
+
+
+        <nav class="desktop-menu">
+
+
+            <a href="rayman.html"
+               class="menu-link activo">
+
+                <img src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+                     alt=""
+                     class="rayman-head">
+
+                <span>RAYMAN</span>
+
+            </a>
+
+
+            <a href="juegos.html"
+               class="menu-link">
+
+                <i class="fa-solid fa-gamepad"></i>
+
+                <span>JUEGOS</span>
+
+            </a>
+
+
+            <a href="personajes.html"
+               class="menu-link">
+
+                <i class="fa-solid fa-user-group"></i>
+
+                <span>PERSONAJES</span>
+
+            </a>
+
+
+            <a href="mundos.html"
+               class="menu-link">
+
+                <i class="fa-solid fa-earth-americas"></i>
+
+                <span>MUNDOS</span>
+
+            </a>
+
+
+            <a href="galeria.html"
+               class="menu-link">
+
+                <i class="fa-regular fa-image"></i>
+
+                <span>GALERÍA</span>
+
+            </a>
+
+
+        </nav>
+
+
+        <button class="hamburger"
+                id="hamburger"
+                aria-label="Abrir menú">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MENU MOBILE
+========================================================= -->
+
+<div class="mobile-overlay"
+     id="mobileOverlay">
+</div>
+
+
+<aside class="mobile-menu"
+       id="mobileMenu">
+
+
+    <div class="mobile-menu-top">
+
+        <a href="index.html">
+
+            <img src="img/RAYMAN LOGO MENU.png"
+                 alt="Rayman">
+
+        </a>
+
+
+        <button id="closeMobile"
+                aria-label="Cerrar menú">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+
+    <nav class="mobile-main-nav">
+
+
+        <a href="rayman.html"
+           class="mobile-item activo">
+
+            <img src="img/CABEZA RAYMAN MENU SUPERIOR.png"
+                 alt="">
+
+            <span>RAYMAN</span>
+
+        </a>
+
+
+        <a href="juegos.html"
+           class="mobile-item">
+
+            <i class="fa-solid fa-gamepad"></i>
+
+            <span>JUEGOS</span>
+
+        </a>
+
+
+        <a href="personajes.html"
+           class="mobile-item">
+
+            <i class="fa-solid fa-user-group"></i>
+
+            <span>PERSONAJES</span>
+
+        </a>
+
+
+        <a href="mundos.html"
+           class="mobile-item">
+
+            <i class="fa-solid fa-earth-americas"></i>
+
+            <span>MUNDOS</span>
+
+        </a>
+
+
+        <a href="galeria.html"
+           class="mobile-item">
+
+            <i class="fa-solid fa-images"></i>
+
+            <span>GALERÍA</span>
+
+        </a>
+
+
+        <a href="proyecto.html"
+           class="mobile-item">
+
+            <i class="fa-solid fa-circle-info"></i>
+
+            <span>SOBRE EL PROYECTO</span>
+
+        </a>
+
+
+    </nav>
+
+
+    <div class="mobile-rayman-divider"></div>
+
+
+    <div class="mobile-rayman-header">
+
+        <img src="img/RAYMAN/RAYMAN MENU MORADO.png"
+             alt="Rayman">
+
+        <div>
+
+            <small>SECCIONES</small>
+
+            <strong>RAYMAN</strong>
+
+        </div>
+
+    </div>
+
+
+    <nav class="mobile-rayman-nav">
+
+
+        <a href="#historia"
+           class="mobile-rayman-link">
+
+            <img src="img/RAYMAN/MENU HISTORIA.png"
+                 alt="">
+
+            <span>HISTORIA</span>
+
+        </a>
+
+
+        <a href="#origen"
+           class="mobile-rayman-link">
+
+            <img src="img/RAYMAN/MENU ORIGEN.png"
+                 alt="">
+
+            <span>ORIGEN</span>
+
+        </a>
+
+
+        <a href="#caracteristicas"
+           class="mobile-rayman-link">
+
+            <img src="img/RAYMAN/MENU CARACTERISTICAS.png"
+                 alt="">
+
+            <span>CARACTERÍSTICAS</span>
+
+        </a>
+
+
+        <a href="#evolucion"
+           class="mobile-rayman-link">
+
+            <img src="img/RAYMAN/MENU EVOLUCION.png"
+                 alt="">
+
+            <span>EVOLUCIÓN</span>
+
+        </a>
+
+
+    </nav>
+
+</aside>
+
+
+<!-- =========================================================
+     OVERLAY MENU EXTRA
+========================================================= -->
+
+<div class="rayman-panel-overlay"
+     id="raymanPanelOverlay">
+</div>
+
+
+<!-- =========================================================
+     MENU EXTRA IZQUIERDO
+========================================================= -->
+
+<aside class="rayman-panel"
+       id="raymanPanel">
+
+
+    <button class="panel-toggle"
+            id="panelToggle"
+            aria-label="Abrir menú Rayman">
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </button>
+
+
+    <div class="panel-background">
+
+        <img src="img/RAYMAN/MENU LATERAL MORADO.png"
+             alt="">
+
+    </div>
+
+
+    <div class="panel-content">
+
+
+        <a href="index.html"
+           class="panel-logo">
+
+            <img src="img/RAYMAN LOGO MENU.png"
+                 alt="Rayman">
+
+        </a>
+
+
+        <div class="panel-rayman">
+
+            <img src="img/RAYMAN/RAYMAN MENU MORADO.png"
+                 alt="Rayman">
+
+        </div>
+
+
+        <h2>RAYMAN</h2>
+
+
+        <nav class="panel-nav">
+
+
+            <a href="#historia"
+               class="panel-link active"
+               data-section="historia">
+
+                <img src="img/RAYMAN/MENU HISTORIA.png"
+                     alt="">
+
+                <span>HISTORIA</span>
+
+            </a>
+
+
+            <a href="#origen"
+               class="panel-link"
+               data-section="origen">
+
+                <img src="img/RAYMAN/MENU ORIGEN.png"
+                     alt="">
+
+                <span>ORIGEN</span>
+
+            </a>
+
+
+            <a href="#caracteristicas"
+               class="panel-link"
+               data-section="caracteristicas">
+
+                <img src="img/RAYMAN/MENU CARACTERISTICAS.png"
+                     alt="">
+
+                <span>CARACTERÍSTICAS</span>
+
+            </a>
+
+
+            <a href="#evolucion"
+               class="panel-link"
+               data-section="evolucion">
+
+                <img src="img/RAYMAN/MENU EVOLUCION.png"
+                     alt="">
+
+                <span>EVOLUCIÓN</span>
+
+            </a>
+
+
+        </nav>
+
+
+    </div>
+
+</aside>
+
+
+<main>
+
+
+<!-- =========================================================
+     BANNER
+========================================================= -->
+
+<section class="hero-rayman"
+         id="historia">
+
+
+    <div class="hero-bg"></div>
+
+    <div class="hero-top-fade"></div>
+
+    <div class="hero-light"></div>
+
+
+    <div class="hero-content">
+
+
+        <!-- NUEVO TEXTO -->
+
+        <p class="hero-eyebrow">
+
+            INICIO RAYMAN
+
+        </p>
+
+
+        <p class="hero-kicker">
+
+            HISTORIA DE
+
+        </p>
+
+
+        <h1 class="hero-title">
+
+            RAYMAN
+
+        </h1>
+
+
+        <div class="purple-brush">
+
+            <img src="img/RAYMAN/PINCEL MORADO BANNER.png"
+                 alt="">
+
+            <span>
+
+                EXPLORA LA AVENTURA SIN LÍMITES
+
+            </span>
+
+        </div>
+
+
+        <div class="hero-description">
+
+            <p>
+
+                Descubre el origen de Rayman, adéntrate en el
+                mágico Claro de los Sueños y recorre la evolución
+                de uno de los héroes más inolvidables de los
+                videojuegos.
+
+            </p>
+
+        </div>
+
+
+        <div class="hero-buttons">
+
+
+            <button class="trailer-brush"
+                    id="heroTrailer">
+
+                <img src="img/RAYMAN/PINCEL AMARILLO TRAILER.png"
+                     alt="">
+
+                <span>
+
+                    <i class="fa-solid fa-play"></i>
+
+                    VER TRÁILER
+
+                </span>
+
+            </button>
+
+
+            <a href="#origen"
+               class="explore-button">
+
+                EXPLORAR RAYMAN
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTENIDO
+========================================================= -->
+
+<div class="content-zone"
+     id="contentZone">
+
+
+    <!-- BURBUJAS -->
+
+    <div class="bubble-texture"
+         id="bubbleTexture"
+         aria-hidden="true">
+    </div>
+
+
+    <!-- PARTICULAS QUE SUBEN DEL FOOTER -->
+
+    <div class="rising-particles"
+         id="risingParticles"
+         aria-hidden="true">
+    </div>
+
+
+    <div class="yellow-section-divider"></div>
+
+
+    <!-- =====================================================
+         ORIGEN
+    ====================================================== -->
+
+    <section class="section origin-section"
+             id="origen">
+
+
+        <div class="section-container">
+
+
+            <header class="section-title reveal">
+
+                <h2>ORIGEN</h2>
+
+                <span></span>
+
+            </header>
+
+
+            <div class="origin-layout">
+
+
+                <button class="open-image-card origin-image reveal-left"
+                        data-image="img/RAYMAN/ORIGEN SECCION 2.png"
+                        data-title="EL CLARO DE LOS SUEÑOS"
+                        data-description="El universo de Rayman combina naturaleza, criaturas fantásticas, magia y escenarios imposibles.">
+
+
+                    <img src="img/RAYMAN/ORIGEN SECCION 2.png"
+                         alt="Origen de Rayman">
+
+
+                    <div class="image-hover-overlay">
+
+
+                        <i class="fa-solid fa-expand"></i>
+
+
+                        <h3>
+
+                            EL CLARO DE LOS SUEÑOS
+
+                        </h3>
+
+
+                        <p>
+
+                            Un universo lleno de naturaleza,
+                            magia y criaturas fantásticas.
+
+                        </p>
+
+
+                        <span>
+
+                            CLIC PARA AMPLIAR
+
+                        </span>
+
+
+                    </div>
+
+
+                </button>
+
+
+                <div class="origin-copy reveal">
+
+
+                    <p class="origin-highlight">
+
+                        Rayman nació en el Claro de los Sueños,
+                        un lugar mágico donde habitan criaturas
+                        y seres fantásticos.
+
+                    </p>
+
+
+                    <p class="origin-highlight">
+
+                        Desde su creación, se ha convertido
+                        en uno de los personajes más queridos
+                        de los videojuegos.
+
+                    </p>
+
+
+                    <p class="origin-secondary">
+
+                        Su universo mezcla escenarios llenos de
+                        color, humor, fantasía y criaturas únicas.
+                        Su silueta inconfundible y su personalidad
+                        han permitido que conserve su identidad
+                        a lo largo de diferentes generaciones.
+
+                    </p>
+
+
+                </div>
+
+
+                <aside class="curiosity reveal-right">
+
+
+                    <div class="curiosity-header">
+
+
+                        <span>
+
+                            <i class="fa-regular fa-lightbulb"></i>
+
+                        </span>
+
+
+                        <h3>
+
+                            CURIOSIDAD
+
+                        </h3>
+
+
+                    </div>
+
+
+                    <p>
+
+                        Rayman no posee brazos ni piernas visibles.
+                        Sus manos y sus pies flotan alrededor
+                        de su cuerpo, convirtiéndose en una de
+                        las características más reconocibles
+                        del personaje.
+
+                    </p>
+
+
+                </aside>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <div class="yellow-section-divider"></div>
+
+
+    <!-- =====================================================
+         CARACTERÍSTICAS
+    ====================================================== -->
+
+    <section class="section characteristics-section"
+             id="caracteristicas">
+
+
+        <div class="section-container wide">
+
+
+            <header class="section-title reveal">
+
+
+                <h2>
+
+                    CARACTERÍSTICAS
+
+                </h2>
+
+
+                <span></span>
+
+
+            </header>
+
+
+            <p class="section-intro reveal">
+
+                Rayman combina agilidad, valentía, humor
+                y una identidad visual única. Estas son
+                algunas de las cualidades que mejor definen
+                al personaje.
+
+            </p>
+
+
+            <div class="features-grid">
+
+
+                <article class="feature-card reveal-card">
+
+
+                    <div class="feature-icon">
+
+                        <img src="img/RAYMAN/ICONO SIN LIMITES.png"
+                             alt="Sin límites">
+
+                    </div>
+
+
+                    <h3 class="yellow">
+
+                        SIN LÍMITES
+
+                    </h3>
+
+
+                    <p>
+
+                        Aunque no tiene brazos ni piernas,
+                        nada impide que Rayman se mueva,
+                        luche y supere todo tipo de obstáculos.
+
+                    </p>
+
+
+                </article>
+
+
+                <article class="feature-card reveal-card">
+
+
+                    <div class="feature-icon">
+
+                        <img src="img/RAYMAN/ICONO AGILIDAD.png"
+                             alt="Agilidad">
+
+                    </div>
+
+
+                    <h3 class="green">
+
+                        AGILIDAD
+
+                    </h3>
+
+
+                    <p>
+
+                        Puede correr, saltar y realizar
+                        movimientos rápidos para recorrer
+                        escenarios llenos de desafíos.
+
+                    </p>
+
+
+                </article>
+
+
+                <article class="feature-card reveal-card">
+
+
+                    <div class="feature-icon">
+
+                        <img src="img/RAYMAN/ICONO AMIGABLE.png"
+                             alt="Amigable">
+
+                    </div>
+
+
+                    <h3 class="blue">
+
+                        AMIGABLE
+
+                    </h3>
+
+
+                    <p>
+
+                        Su personalidad optimista y amistosa
+                        lo convierte en un héroe cercano
+                        y siempre dispuesto a ayudar.
+
+                    </p>
+
+
+                </article>
+
+
+                <article class="feature-card reveal-card">
+
+
+                    <div class="feature-icon">
+
+                        <img src="img/RAYMAN/ICONO HEROE.png"
+                             alt="Héroe">
+
+                    </div>
+
+
+                    <h3 class="purple">
+
+                        HÉROE
+
+                    </h3>
+
+
+                    <p>
+
+                        Rayman protege a sus amigos,
+                        enfrenta grandes amenazas
+                        y restaura el equilibrio de sus mundos.
+
+                    </p>
+
+
+                </article>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <div class="yellow-section-divider"></div>
+
+
+    <!-- =====================================================
+         EVOLUCION
+    ====================================================== -->
+
+    <section class="section evolution-section"
+             id="evolucion">
+
+
+        <div class="section-container">
+
+
+            <header class="section-title reveal">
+
+
+                <h2>
+
+                    EVOLUCIÓN
+
+                </h2>
+
+
+                <span></span>
+
+
+            </header>
+
+
+            <p class="section-intro reveal">
+
+                A través de los años, Rayman ha cambiado
+                visualmente sin perder la personalidad
+                que lo convirtió en uno de los personajes
+                más reconocibles de los videojuegos.
+
+            </p>
+
+
+            <!-- DESKTOP -->
+
+            <div class="evolution-desktop">
+
+
+                <div class="evolution-top">
+
+
+                    <button class="evolution-card open-image-card reveal-card"
+                            data-image="img/RAYMAN/EVOLUCION 1995.png"
+                            data-title="RAYMAN 1 — 1995"
+                            data-description="El comienzo de la saga y la primera gran aventura de Rayman.">
+
+
+                        <div class="year yellow-bg">
+
+                            1995
+
+                        </div>
+
+
+                        <div class="evolution-image">
+
+                            <img src="img/RAYMAN/EVOLUCION 1995.png"
+                                 alt="Rayman 1995">
+
+                        </div>
+
+
+                        <h3>
+
+                            RAYMAN 1
+
+                        </h3>
+
+
+                        <p>
+
+                            El comienzo de la aventura.
+
+                        </p>
+
+
+                    </button>
+
+
+                    <button class="evolution-card open-image-card reveal-card"
+                            data-image="img/RAYMAN/EVOLUCION 1999.png"
+                            data-title="RAYMAN 2 — 1999"
+                            data-description="Rayman explora nuevos mundos y escenarios tridimensionales.">
+
+
+                        <div class="year purple-bg">
+
+                            1999
+
+                        </div>
+
+
+                        <div class="evolution-image">
+
+                            <img src="img/RAYMAN/EVOLUCION 1999.png"
+                                 alt="Rayman 1999">
+
+                        </div>
+
+
+                        <h3>
+
+                            RAYMAN 2
+
+                        </h3>
+
+
+                        <p>
+
+                            Nuevos mundos y dimensiones.
+
+                        </p>
+
+
+                    </button>
+
+
+                    <button class="evolution-card open-image-card reveal-card"
+                            data-image="img/RAYMAN/EVOLUCION 2003.png"
+                            data-title="RAYMAN 3 — 2003"
+                            data-description="Una nueva etapa con enemigos, poderes y una identidad renovada.">
+
+
+                        <div class="year blue-bg">
+
+                            2003
+
+                        </div>
+
+
+                        <div class="evolution-image">
+
+                            <img src="img/RAYMAN/EVOLUCION 2003.png"
+                                 alt="Rayman 2003">
+
+                        </div>
+
+
+                        <h3>
+
+                            RAYMAN 3
+
+                        </h3>
+
+
+                        <p>
+
+                            Nuevos poderes y desafíos.
+
+                        </p>
+
+
+                    </button>
+
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <span class="timeline-line"></span>
+
+                    <span class="dot dot-yellow"></span>
+
+                    <span class="dot dot-green"></span>
+
+                    <span class="dot dot-purple"></span>
+
+                    <span class="dot dot-red"></span>
+
+                    <span class="dot dot-blue"></span>
+
+
+                </div>
+
+
+                <div class="evolution-bottom">
+
+
+                    <button class="evolution-card bottom-card open-image-card reveal-card"
+                            data-image="img/RAYMAN/EVOLUCION  2011.PNG"
+                            data-title="RAYMAN ORIGINS — 2011"
+                            data-description="Rayman regresa a sus raíces con una estética llena de color y movimiento.">
+
+
+                        <div class="year green-bg">
+
+                            2011
+
+                        </div>
+
+
+                        <div class="evolution-image">
+
+                            <img src="img/RAYMAN/EVOLUCION  2011.PNG"
+                                 alt="Rayman Origins 2011">
+
+                        </div>
+
+
+                        <h3>
+
+                            RAYMAN ORIGINS
+
+                        </h3>
+
+
+                        <p>
+
+                            Regreso a sus raíces.
+
+                        </p>
+
+
+                    </button>
+
+
+                    <button class="evolution-card bottom-card open-image-card reveal-card"
+                            data-image="img/RAYMAN/EVOLUCION 2023.jpg"
+                            data-title="RAYMAN — 2023"
+                            data-description="Una representación moderna que conserva la esencia del personaje.">
+
+
+                        <div class="year red-bg">
+
+                            2023
+
+                        </div>
+
+
+                        <div class="evolution-image">
+
+                            <img src="img/RAYMAN/EVOLUCION 2023.jpg"
+                                 alt="Rayman 2023">
+
+                        </div>
+
+
+                        <h3>
+
+                            RAYMAN
+
+                        </h3>
+
+
+                        <p>
+
+                            Una imagen moderna y renovada.
+
+                        </p>
+
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+            <!-- MOBILE -->
+
+            <div class="evolution-mobile">
+
+
+                <div class="mobile-timeline-line"></div>
+
+
+                <button class="mobile-evolution open-image-card"
+                        data-image="img/RAYMAN/EVOLUCION 1995.png"
+                        data-title="RAYMAN 1 — 1995"
+                        data-description="El comienzo de la aventura.">
+
+
+                    <span class="mobile-dot yellow-bg"></span>
+
+
+                    <div class="year yellow-bg">
+
+                        1995
+
+                    </div>
+
+
+                    <img src="img/RAYMAN/EVOLUCION 1995.png"
+                         alt="">
+
+
+                    <h3>
+
+                        RAYMAN 1
+
+                    </h3>
+
+
+                </button>
+
+
+                <button class="mobile-evolution open-image-card"
+                        data-image="img/RAYMAN/EVOLUCION  2011.PNG"
+                        data-title="RAYMAN ORIGINS — 2011"
+                        data-description="Rayman regresa a sus raíces.">
+
+
+                    <span class="mobile-dot green-bg"></span>
+
+
+                    <div class="year green-bg">
+
+                        2011
+
+                    </div>
+
+
+                    <img src="img/RAYMAN/EVOLUCION  2011.PNG"
+                         alt="">
+
+
+                    <h3>
+
+                        RAYMAN ORIGINS
+
+                    </h3>
+
+
+                </button>
+
+
+                <button class="mobile-evolution open-image-card"
+                        data-image="img/RAYMAN/EVOLUCION 1999.png"
+                        data-title="RAYMAN 2 — 1999"
+                        data-description="Nuevos mundos y dimensiones.">
+
+
+                    <span class="mobile-dot purple-bg"></span>
+
+
+                    <div class="year purple-bg">
+
+                        1999
+
+                    </div>
+
+
+                    <img src="img/RAYMAN/EVOLUCION 1999.png"
+                         alt="">
+
+
+                    <h3>
+
+                        RAYMAN 2
+
+                    </h3>
+
+
+                </button>
+
+
+                <button class="mobile-evolution open-image-card"
+                        data-image="img/RAYMAN/EVOLUCION 2023.jpg"
+                        data-title="RAYMAN — 2023"
+                        data-description="Una imagen moderna del personaje.">
+
+
+                    <span class="mobile-dot red-bg"></span>
+
+
+                    <div class="year red-bg">
+
+                        2023
+
+                    </div>
+
+
+                    <img src="img/RAYMAN/EVOLUCION 2023.jpg"
+                         alt="">
+
+
+                    <h3>
+
+                        RAYMAN
+
+                    </h3>
+
+
+                </button>
+
+
+                <button class="mobile-evolution open-image-card"
+                        data-image="img/RAYMAN/EVOLUCION 2003.png"
+                        data-title="RAYMAN 3 — 2003"
+                        data-description="Nuevos poderes y desafíos.">
+
+
+                    <span class="mobile-dot blue-bg"></span>
+
+
+                    <div class="year blue-bg">
+
+                        2003
+
+                    </div>
+
+
+                    <img src="img/RAYMAN/EVOLUCION 2003.png"
+                         alt="">
+
+
+                    <h3>
+
+                        RAYMAN 3
+
+                    </h3>
+
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+</div>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<div class="footer-zone"
+     id="footerZone">
+
+
+    <div class="footer-particles"
+         id="footerParticles">
+    </div>
+
+
+    <footer class="footer">
+
+
+        <div class="footer-content">
+
+
+            <div class="footer-logo">
+
+                <img src="img/RAYMAN FOOTER.png"
+                     alt="Rayman">
+
+            </div>
+
+
+            <div class="footer-divider"></div>
+
+
+            <div class="footer-contact">
+
+
+                <h3>
+
+                    Contacto
+
+                </h3>
+
+
+                <p>
+
+                    Rayman.co
+
+                </p>
+
+
+                <p>
+
+                    +57 324 596 1367
+
+                </p>
+
+
+                <p>
+
+                    Cra. 84 #17 - 42, Engativá
+
+                </p>
+
+
+            </div>
+
+
+            <div class="footer-social">
+
+
+                <a href="https://www.instagram.com/rayman_game/?hl=es-la"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+
+                <a href="https://www.tiktok.com/@raymanadventuresfan"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-tiktok"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+        <p class="copyright">
+
+            © 2026 MUNDO RAYMAN
+
+        </p>
+
+
+    </footer>
+
+
+</div>
+
+
+<!-- =========================================================
+     BOTONES FLOTANTES
+========================================================= -->
+
+<div class="floating-controls">
+
+
+    <button class="floating-button music-button"
+            id="musicButton">
+
+        <i class="fa-solid fa-volume-xmark"
+           id="musicIcon"></i>
+
+
+        <span class="music-bars">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </span>
+
+
+    </button>
+
+
+    <button class="floating-button top-button"
+            id="topButton">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+</div>
+
+
+<!-- =========================================================
+     TRAILER
+========================================================= -->
+
+<div class="trailer-modal"
+     id="trailerModal">
+
+
+    <div class="modal-bg"
+         id="trailerModalBg">
+    </div>
+
+
+    <div class="video-modal-content">
+
+
+        <button class="modal-close"
+                id="trailerClose">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <iframe id="trailerIframe"
+                src=""
+                title="Trailer Rayman"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+
+
+    </div>
+
+
+</div>
+
+
+<!-- =========================================================
+     MODAL IMAGEN
+========================================================= -->
+
+<div class="image-modal"
+     id="imageModal">
+
+
+    <div class="modal-bg"
+         id="imageModalBg">
+    </div>
+
+
+    <div class="image-modal-content">
+
+
+        <button class="modal-close"
+                id="imageModalClose">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <img id="imageModalImage"
+             src=""
+             alt="">
+
+
+        <div class="image-modal-text">
+
+            <h3 id="imageModalTitle"></h3>
+
+            <p id="imageModalDescription"></p>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script src="rayman.js"></script>
+
+<!-- RAYMAN -->
+<script src="rayman.js"></script>
+<script src="proyecto-modal.js"></script>
+
+</body>
+
+</html>
